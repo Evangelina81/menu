@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTO SE COLOCA PARA SACAR ELEMENTOS PREDETERMINADOS  */
+
+.header{
+    background-color: aqua;
+    height: 100px;   
+     
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px;
+    background-color: aqua;
+    height: 95px;
+    
+}
+
+li{
+    display: flex;
+    list-style: none;    
+}
+
+.lista{
+    display: flex;
+    gap: 40px;
+    font-size: 30px;
+    position: relative;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.submenu:hover .submenu-oculto{
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;
+    background-color: aqua;
+    align-content: space-around;
+    flex-wrap: wrap;
+     
+}
+
+.submenu-oculto{
+    display: none;
+    position: absolute;
+    top: 90px;
+    left: 220px;
+    padding: 10px;
+}
+
+
+
